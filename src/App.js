@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import FormSimple from './components/FormSimple'
+import BasicFormShort from './components/BasicFormShort'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        {/*<FormSimple />*/}
+        <BasicFormShort />
       </header>
     </div>
   );
